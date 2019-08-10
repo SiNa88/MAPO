@@ -15,7 +15,7 @@ The testbed components were interconnected with a dedicated Gigabit Ethernet swi
 For emulating the latency between devices, we created artificial network delays using the Linux tc (traffic control) {https://linux.die.net/man/8/tc} command.
 We assumed that the IoT devices are close to the MEs with an average latency of 1ms. The latency between ME and GW is 10ms, and between GW and CDC of 70ms, obtained using the Global Ping Statistics in WonderNetwork. 
 
-## Raspbian Operating system for Raspberry Pi devices
+## Raspbian Operating System for Raspberry Pi devices
 
 We used the nc command for data communication between containerized application components running on different devices.
 We installed Raspbian GNU/Linux 9.8 (stretch) {https://www.raspberrypi.org/downloads/raspbian/}.
