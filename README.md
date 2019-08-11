@@ -1,8 +1,10 @@
 This tutorial is just for devices running Debian based OS.
-    
+This project is related to our recent paper available on:
+https://arxiv.org/abs/1908.01153
+
 ## Experiments
 
-We run 6 experiments comparing MAPO with FSPP, and EW. We model one component based application, mental health care, in terms of number of CPU instructions, memory, storage and bandwidth that they require.
+We had 6 experiments comparing MAPO with FSPP, and EW. We model one component based application, mental health care, in terms of number of CPU instructions, memory, storage and bandwidth that they require.
 
 ## Testbed devices
 
