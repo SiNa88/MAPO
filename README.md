@@ -39,7 +39,7 @@ https://docs.docker.com/install/linux/docker-ce/ubuntu/
     ```systemctl status docker```
     
 
-## Docker base image and the application
+## Base image of Docker and the application
 
 We instantiate a Docker image by starting an Ubuntu:14.04 base image.
 We installed SysBench through the system package manager on the containerized devices. 
