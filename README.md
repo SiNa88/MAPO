@@ -1,6 +1,6 @@
 This tutorial is just for devices running Debian based OS.
 This project is related to our recent paper available on:
-https://arxiv.org/abs/1908.01153
+https://dl.acm.org/citation.cfm?id=3365892
 
 ## Experiments
 
