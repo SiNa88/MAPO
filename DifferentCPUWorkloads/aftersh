@@ -1,7 +1,0 @@
-#!/bin/bash
-
-sudo tc qdisc add dev eth0 root netem delay 70ms
-docker exec mapo65
-#docker run -ti --rm -p 1230:1230 dayaftmapo65:latest
-#ping google.com
-sudo tc qdisc del dev eth0 root netem delay 70ms
