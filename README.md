@@ -1,10 +1,24 @@
-This tutorial is just for devices running Debian based OS.
+# MAPO
+multi-objective IoT application placement
+
+## Paper Citation
 This project is related to our recent paper available on:
 https://dl.acm.org/citation.cfm?id=3365892
 
+## Contributors
+	1.Narges Mehran (PhD Student, Alpen-Adria Universitat Klagenfurt, Austria)
+	2.Dragi Kimovski (PostDoc, Alpen-Adria Universitat Klagenfurt, Austria)
+	Contact: narges(at)itec.aau.at ; dragi.kimovski(at)aau.at
+
+
+
+This tutorial is just for devices running Debian based OS.
+## Inputs for Multi-objective optimization algorithm
+Two python codes are provided which prepare the JSON files for the resource configurations and component-based application requirements. These JSON files are as input arguements for NSGA-II algorithm executed in jMetal (a framework for multi-objective optimization with metaheuristics).
+
 ## Experiments
 
-We had 6 experiments comparing MAPO with FSPP, and EW. We model one component based application, mental health care, in terms of number of CPU instructions, memory, storage and bandwidth that they require.
+We had 6 experiments comparing MAPOwith FSPP, and EW. We model one component based application, mental health care, in terms of number of CPU instructions, memory, storage and bandwidth that they require.
 
 ## Testbed devices
 
@@ -20,6 +34,7 @@ We assume that the IoT devices are close to the MEs with an average latency of 1
 	```sudo tc qdisc add dev <Device-ID> root netem delay 70ms```
 * to delete the latency, run the following command
 	```sudo tc qdisc del dev <Device-ID> root netem delay 70ms```
+
 
 ## Raspbian Operating System for Raspberry Pi devices
 
@@ -57,7 +72,6 @@ Every device just runs one container to execute the components assigned to it.
 ## Run the Docker container
     docker run -it MAPO:latest
 
+## Cost calculations
 
-## Placement
-The placement of the methods by considering the characteristics of application is as follows:
-https://github.com/SiNa88/MAPO/blob/master/Placement.png
+In CostByRunningAppOnTestbed section, we provide scripts of calculating economic costs based on resources and application executed on them.
