@@ -1,6 +1,0 @@
-#!/bin/bash
-
-for i in {1..1000}
-do
-	sysbench --test=cpu --num-threads=8 --cpu-max-prime=400 run
-done
