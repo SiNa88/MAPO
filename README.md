@@ -14,11 +14,11 @@ https://dl.acm.org/citation.cfm?id=3365892
 
 This tutorial is just for devices running Debian based OS.
 ## Inputs for Multi-objective optimization algorithm
-Two python codes are provided which prepare the JSON files for the resource configurations and component-based application requirements. These JSON files are as input arguments for NSGA-II algorithm executed in jMetal (a framework for multi-objective optimization with metaheuristics).
+Two Python scripts are provided, which prepare the JSON files for the resource configurations and component-based application requirements. These JSON files are input arguments for NSGA-II algorithm executed in jMetal (a framework for multi-objective optimization with meta-heuristics).
 
 ## Experiments
 
-We had 6 experiments comparing MAPOwith FSPP, and EW. We model one component based application, mental health care, in terms of number of CPU instructions, memory, storage and bandwidth that they require.
+We had six experiments comparing MAPOwith FSPP, and EW. We model one component based application, mental health care, in terms of number of CPU instructions, memory, storage and bandwidth that they require.
 
 ## Testbed devices
 
