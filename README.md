@@ -74,4 +74,4 @@ Every device just runs one container to execute the components assigned to it.
 
 ## Cost calculations
 
-In CostByRunningAppOnTestbed section, we provide scripts of calculating economic costs based on resources and application executed on them.
+In [CostByRunningAppOnTestbed](https://github.com/SiNa88/MAPO/tree/master/CostByRunningAppOnTestbed) section, we provide scripts of calculating economic costs based on resources and application executed on them.
