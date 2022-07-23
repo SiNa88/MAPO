@@ -1,5 +1,5 @@
 # MAPO
-multi-objective IoT application placement
+Multi-objective IoT application placement
 
 ## Paper Citation
 This project is related to our recent paper available on:
