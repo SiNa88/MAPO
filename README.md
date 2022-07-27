@@ -18,7 +18,7 @@ Two Python scripts are provided, which prepare the JSON files for the resource c
 
 ## Experiments
 
-We had six experiments comparing MAPOwith FSPP, and EW. We model one component based application, mental health care, in terms of number of CPU instructions, memory, storage and bandwidth that they require.
+We had six experiments comparing MAPO with FSPP, and EW. We model one component based application, mental health care, in terms of number of CPU instructions, memory, storage and bandwidth that they require.
 
 ## Testbed devices
 
